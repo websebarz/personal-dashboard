@@ -13,7 +13,7 @@ fetch(
     document.getElementById("author").textContent = `By: Dodi Achmad`;
   });
 
-fetch("https://api.coingecko.com/api/v3/coins/bitcoin")
+fetch("https://api.coingecko.com/api/v3/coins/ethereum")
   .then((res) => {
     if (!res.ok) {
       throw Error("Something went wrong");
